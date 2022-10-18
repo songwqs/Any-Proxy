@@ -22,9 +22,6 @@
 > https://www.com/http://+需访问的链接 （目标链接必须添加http(s)://）  
   
 > 如 ：https://www.com/http://ip38.com/  
-  
-![Image](https://p.pstatp.com/origin/fe81000376fc445be379)  
-![Image](https://p.pstatp.com/origin/137b90001905c99862df3)  
 
 > 基于：https://github.com/koala0529/reverse-proxy-php 修改  
 > 请勿用于非法用途，否则后果自负。
