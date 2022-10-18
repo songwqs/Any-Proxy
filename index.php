@@ -5,7 +5,7 @@ if (isset($_POST['Any-Proxy'])) {
     header("Refresh:0");
 }
 if (strpos($_SERVER['REQUEST_URI'], $pass) != false) {
-//新增路径密码 方便直接访问-格式：http://域名.com/pass/https://www.baidu.com    
+//新增路径密码 方便直接访问 格式：http://域名.com/pass/https://www.baidu.com    
 $_SERVER['REQUEST_URI']= str_replace($pass."/", "", $_SERVER['REQUEST_URI']);
 }
 elseif ($_COOKIE['Any-Proxy'] != $pass) {
