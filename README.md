@@ -1,7 +1,8 @@
 > Any-Proxy可以帮助你完美地反向代理浏览任意网站  
 > 免去复杂的程序，不到10KB文件，兼容性极好  
   
-> 添加了简易的密码访问，默认密码web  
+> 添加了简易的密码访问，默认密码web
+> index_all.php新增了路径密码：https://www.com/password/https://github.com/ ;password默认密码web  
 > 最新版本将退出指令改成了~q 这将在输入时更加便捷  
 > 需配置伪静态，nginx伪静态规则如下：  
 > if ( !-e $request_filename) {  
@@ -12,6 +13,7 @@
 > index.php 外链、外链图片、外链静态文件等请求不通过Any-Proxy，地址栏不会显示目标域名  
 > index_all.php 区别为传统版，地址栏会显示目标域名，性能不及前者  
 > index_all.php 所有外链、外链图片、外链静态文件等请求都通过Any-Proxy
+
   
 > 支持POST、Cookie，https/http均可使用  
 > 支持伪造IP，$anyip值为1发送服务器IP头，值为2则发送随机IP，值为3发送客户端IP  
